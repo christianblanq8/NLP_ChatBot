@@ -24,7 +24,7 @@ Answer:
 )
 
 def load_documents():
-    file_path =  'C:/Users/Potato Leek Soup/Desktop/Python_Projects/Open_AI_Bot/PDFs/'
+    file_path =  '...'
     document_loader  = PyPDFDirectoryLoader(file_path)
     return document_loader.load()
 
